@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <GridPane fx:id="Panel" alignment="CENTER" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="80.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="80.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="80.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+          <RowConstraints maxHeight="80.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+            <RowConstraints maxHeight="80.0" minHeight="30.0" prefHeight="30.0" vgrow="ALWAYS" />
+        </rowConstraints>
+         <children>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <center>
+                  <Button fx:id="five" alignment="CENTER" mnemonicParsing="false" onAction="#onActionFive" prefHeight="66.0" prefWidth="112.0" text="5" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+               <center>
+                  <Button fx:id="seven" mnemonicParsing="false" onAction="#onActionseven" prefHeight="66.0" prefWidth="112.0" text="7" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <center>
+                  <Button fx:id="eight" mnemonicParsing="false" onAction="#onActionEight" prefHeight="66.0" prefWidth="112.0" text="8" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <center>
+                  <Button fx:id="nine" mnemonicParsing="false" onAction="#onActionNine" prefHeight="66.0" prefWidth="112.0" text="9" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <center>
+                  <Button fx:id="CE" mnemonicParsing="false" onAction="#onActionCE" prefHeight="66.0" prefWidth="112.0" text="CE" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <center>
+                  <Button fx:id="C" mnemonicParsing="false" onAction="#onActionC" prefHeight="66.0" prefWidth="112.0" text="C" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+               <center>
+                  <Button fx:id="four" mnemonicParsing="false" onAction="#onActionFour" prefHeight="66.0" prefWidth="112.0" text="4" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <center>
+                  <Button fx:id="six" mnemonicParsing="false" onAction="#onActionSix" prefHeight="66.0" prefWidth="112.0" text="6" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <center>
+                  <Button fx:id="multi" mnemonicParsing="false" onAction="#onActionMulti" prefHeight="66.0" prefWidth="112.0" text="*" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <center>
+                  <Button fx:id="divide" mnemonicParsing="false" onAction="#onActionDivide" prefHeight="66.0" prefWidth="112.0" text="/" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+               <center>
+                  <Button fx:id="one" mnemonicParsing="false" onAction="#onActionOne" prefHeight="66.0" prefWidth="112.0" text="1" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="80.0" prefWidth="186.0" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4">
+               <center>
+                  <Button fx:id="cero" mnemonicParsing="false" onAction="#onActionCero" prefHeight="70.0" prefWidth="234.0" text="0" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <center>
+                  <Button fx:id="two" mnemonicParsing="false" onAction="#onActionTwo" prefHeight="66.0" prefWidth="112.0" text="2" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <center>
+                  <Button fx:id="three" mnemonicParsing="false" onAction="#onActionThree" prefHeight="66.0" prefWidth="112.0" text="3" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="130.0" prefWidth="120.0" GridPane.columnIndex="4" GridPane.rowIndex="3" GridPane.rowSpan="2">
+               <center>
+                  <Button fx:id="equal" mnemonicParsing="false" onAction="#onActionEqual" prefHeight="154.0" prefWidth="110.0" style="-fx-background-color: lightblue;" text="=" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <center>
+                  <Button fx:id="plus" mnemonicParsing="false" onAction="#onActionPlus" prefHeight="66.0" prefWidth="112.0" text="+" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <center>
+                  <Button fx:id="point" mnemonicParsing="false" onAction="#onActionPoint" prefHeight="66.0" prefWidth="112.0" text="," BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <center>
+                  <Button fx:id="less" mnemonicParsing="false" onAction="#onActionLess" prefHeight="66.0" prefWidth="112.0" text="-" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+            <BorderPane prefHeight="80.0" prefWidth="279.0" GridPane.columnSpan="5">
+               <center>
+                  <TextField fx:id="Result" alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="554.0" text="0.0" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Calculadora" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
